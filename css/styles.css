@@ -338,6 +338,7 @@ footer .social_links {
   font-size: 4vw;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 50vw;
   margin-top: 8vw;
   grid-gap: 6.5vw;
@@ -546,8 +547,8 @@ footer .social_links a {
   .What_They_Have_To_Say .swiper .swiper-btn {
     display: flex;
     z-index: 2;
-    height: 2.5vw;
-    width: 2.5vw;
+    height: 2vw;
+    width: 2vw;
     border: unset;
     border-radius: 100%;
     background: rgba(255, 255, 255, 0.4);
@@ -567,7 +568,7 @@ footer .social_links a {
     right: 3.5vw;
   }
   .What_They_Have_To_Say .swiper .swiper-btn svg {
-    width: 0.75vw;
+    width: 0.5vw;
   }
   .globe_section {
     margin-top: 0vw;

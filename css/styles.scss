@@ -372,6 +372,7 @@ footer {
     font-size: 4vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 50vw;
     margin-top: 8vw;
     grid-gap: 6.5vw;
@@ -588,8 +589,8 @@ footer {
       .swiper-btn {
         display: flex;
         z-index: 2;
-        height: 2.5vw;
-        width: 2.5vw;
+        height: 2vw;
+        width: 2vw;
         border: unset;
         border-radius: 100%;
         background: rgba(255, 255, 255, 0.4);
@@ -607,7 +608,7 @@ footer {
           right: 3.5vw;
         }
         svg {
-          width: 0.75vw;
+          width: 0.5vw;
         }
       }
     }
