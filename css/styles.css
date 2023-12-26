@@ -24,6 +24,14 @@ body > * {
   top: -12vw;
 }
 
+.mounten_art {
+  top: 95vw;
+}
+
+.desktop_tmp {
+  display: none;
+}
+
 header {
   height: 16vw;
   display: flex;
@@ -382,10 +390,6 @@ footer .social_links {
 footer .social_links a {
   text-decoration: none;
   letter-spacing: 0.1vw;
-}
-
-.desktop_tmp {
-  display: none;
 }
 
 @media only screen and (max-width: 767px) {

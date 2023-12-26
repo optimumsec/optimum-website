@@ -23,7 +23,12 @@ body {
 .mobite_tmp {
   top: -12vw;
 }
-
+.mounten_art{
+  top: 95vw;
+}
+.desktop_tmp {
+  display: none;
+}
 header {
   height: 16vw;
   display: flex;
@@ -424,9 +429,7 @@ footer {
 
 // ------    KEYFRAME AND RESPONSIVE -------------------------------------------------
 
-.desktop_tmp {
-  display: none;
-}
+
 @media only screen and (max-width: 767px) {
   header {
     .nav_menu {
