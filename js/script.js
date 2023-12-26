@@ -48,7 +48,7 @@ function sliderHelper() {
 }
 
 function mobileMenuHelper() {
-  document.querySelectorAll(".open_menu_controller").
+  document.querySelectorAll(".menu_controller").
   forEach(el => el.addEventListener("click", toggleOpenHeader));
 }
 function toggleOpenHeader() {
