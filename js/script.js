@@ -3,7 +3,8 @@
 function main() {
   sliderHelper();
   swiperHelper();
-};
+  mobileMenuHelper();
+}
 
 // helpers
 function swiperHelper() {
@@ -46,6 +47,14 @@ function sliderHelper() {
   appendDuplicateChildren(c);
 }
 
+function mobileMenuHelper() {
+  document.querySelectorAll(".menu_controller").
+  forEach(el => el.addEventListener("click", toggleOpenHeader));
+}
+function toggleOpenHeader() {
+  document.getElementsByTagName("header")[0]
+  .classList.toggle("open");
+}
 function appendDuplicateChildren(containerDiv) {
   const children = containerDiv.children;
   const duplicateChildren = Array.from(children).map((child) =>
@@ -75,4 +84,3 @@ function scrollToMiddle() {
     swiper.scrollLeft += scrollPosition;
   }
 }
-

@@ -12,16 +12,51 @@
     <script src="js/script.js"></script>
   </head>
   <body>
-    <img class="bg_image mobite_tmp" src="assets/images/mobile.svg" />
+    <img class="bg_image mobite_tmp" src="assets/images/mobile2.svg" />
+    <img class="bg_image mobite_tmp mounten_art" src="assets/images/mounten_art.svg" />
     <img class="bg_image desktop_tmp" src="assets/images/Web.svg" />
-    <header>
-      <img class="menu_icon" src="assets/images/menu_icon.svg" />
+    <header class="">
+      <img
+        class="menu_icon menu_controller"
+        src="assets/images/menu_icon.svg"
+      />
       <img class="optimin_logo" src="assets/images/optimin_logo.svg" />
       <div class="empty"></div>
       <div class="nav_menu">
-        <a class="nav_link" href="#our_clients">Our Clients</a>
-        <a class="nav_link" href="#what_do_they_have_to_say">Testimonials</a>
-        <a class="blue_btn" href="https://docs.google.com/forms/d/e/1FAIpQLScGSKJuaPSl3kEgJUCoinZE88Cnt6RjzirI5L3waOlNxYuD8A/viewform?usp=sf_link" target="_blank">Book An Audit</a>
+        <div class="mobile_open_header">
+          <img class="optimin_logo" src="assets/images/optimin_logo.svg" />
+          <svg
+            class="close_icon menu_controller"
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+          >
+            <path
+              d="M13 1L1 13"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M1 1L13 13"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <a class="nav_link menu_controller" href="#our_clients">Our Clients</a>
+        <a class="nav_link menu_controller" href="#what_do_they_have_to_say">Testimonials</a>
+        <a
+          class="blue_btn menu_controller"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScGSKJuaPSl3kEgJUCoinZE88Cnt6RjzirI5L3waOlNxYuD8A/viewform?usp=sf_link"
+          target="_blank"
+          >Book An Audit</a
+        >
       </div>
     </header>
     <section class="hero">
@@ -30,12 +65,25 @@
         <span class="Audit_Excellence"> Made Simple</span>
       </h1>
       <p class="main_p">
-        Optimum Blockchain Security was established by an experienced EVM security researcher with a long track record of providing high quality security services for leading web3 EVM based protocols.
-		I collaborate with top-tier security auditors to deliver an exceptional auditing experience rooted in enduring client relationships.
+        Optimum Blockchain Security was established by an experienced EVM
+        security researcher with a long track record of providing high quality
+        security services for leading web3 EVM based protocols. I collaborate
+        with top-tier security auditors to deliver an exceptional auditing
+        experience rooted in enduring client relationships.
       </p>
       <div class="btns">
-        <a class="blue_btn" href="https://docs.google.com/forms/d/e/1FAIpQLScGSKJuaPSl3kEgJUCoinZE88Cnt6RjzirI5L3waOlNxYuD8A/viewform?usp=sf_link" target="_blank">Book An Audit</a>
-        <a class="white_btn" href="https://github.com/optimumsec/audits" target="_blank">View Previous Audits</a>
+        <a
+          class="blue_btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScGSKJuaPSl3kEgJUCoinZE88Cnt6RjzirI5L3waOlNxYuD8A/viewform?usp=sf_link"
+          target="_blank"
+          >Book An Audit</a
+        >
+        <a
+          class="white_btn"
+          href="https://github.com/optimumsec/audits"
+          target="_blank"
+          >View Previous Audits</a
+        >
       </div>
       <div class="scores">
         <div>
@@ -54,9 +102,7 @@
     </section>
     <section class="our_clients" id="our_clients">
       <h2>My Clients</h2>
-      <p>
-		Trusted By The Best
-      </p>
+      <p>Trusted By The Best</p>
       <div class="companies_logos">
         <div class="slider">
           <div class="slide-track">
@@ -124,7 +170,11 @@
         </button>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img class="company_logo" src="assets/images/defi_saver_logo.svg" alt="" />
+            <img
+              class="company_logo"
+              src="assets/images/defi_saver_logo.svg"
+              alt=""
+            />
             <img class="quote" src="assets/images/“.svg" alt="" />
             <p class="content">
               We greatly appreciate Optimum for their deep analysis. Their professionalism, dedication, 
@@ -178,15 +228,17 @@
         </div>
       </div>
     </section>
-	<footer>
+    <footer>
       <img class="optimin_logo" src="assets/images/optimin_logo.svg" />
       <div class="social_links">
-        <a href="https://github.com/optimumsec/audits" target="_blank">Github</a>
+        <a href="https://github.com/optimumsec/audits" target="_blank"
+          >Github</a
+        >
         <a href="https://twitter.com/0xOptimum" target="_blank">X</a>
       </div>
     </footer>
     <script>
-      main()
+      main();
     </script>
   </body>
 </html>

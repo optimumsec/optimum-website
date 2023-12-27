@@ -24,6 +24,14 @@ body > * {
   top: -12vw;
 }
 
+.mounten_art {
+  top: 95vw;
+}
+
+.desktop_tmp {
+  display: none;
+}
+
 header {
   height: 16vw;
   display: flex;
@@ -40,7 +48,42 @@ header .optimin_logo {
   width: 29vw;
 }
 header .nav_menu {
+  display: flex;
+  height: 100%;
+  gap: 2vw;
+  padding: 5vw;
+}
+header .nav_menu .mobile_open_header {
   display: none;
+}
+header .nav_menu a {
+  text-decoration: none;
+}
+header .nav_menu .nav_link {
+  font-size: 5vw;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+header .nav_menu .nav_link:hover {
+  color: #286ef1;
+  font-weight: 700;
+}
+header .nav_menu .nav_link:active {
+  color: #0e54d8;
+  font-weight: 700;
+}
+header .nav_menu .blue_btn {
+  background-color: #fff;
+  color: black;
+}
+header .nav_menu .blue_btn:hover {
+  background-color: #ff6b35;
+  color: #fff;
+}
+header .nav_menu .blue_btn:active {
+  background-color: #1a0d08;
+  color: #fff;
 }
 
 section {
@@ -349,10 +392,33 @@ footer .social_links a {
   letter-spacing: 0.1vw;
 }
 
-.desktop_tmp {
-  display: none;
+@media only screen and (max-width: 767px) {
+  header .nav_menu {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 100vw;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    background-color: #1f1f1f;
+    gap: 5vw;
+    transition: transform 800ms ease-in-out;
+  }
+  header .nav_menu .mobile_open_header {
+    display: unset;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+  }
+  header.open .nav_menu {
+    transform: translateX(100vw);
+  }
 }
-
 @media only screen and (min-width: 768px) {
   .desktop_tmp {
     display: unset;
