@@ -1,16 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-    </style>
-  </defs>
-  <rect class="cls-1" x="158.71" y="105.56" width="39.46" height="38.91"/>
-  <rect class="cls-1" x="51.83" y="105.55" width="39.46" height="38.91"/>
-  <rect class="cls-1" x="132.02" y="151.84" width="39.46" height="38.91" transform="translate(224.1 -45.81) rotate(59.97)"/>
-  <rect class="cls-1" x="78.52" y="59.24" width="39.46" height="38.91" transform="translate(117.21 -45.75) rotate(59.97)"/>
-  <rect class="cls-1" x="78.52" y="151.84" width="39.46" height="38.91" transform="translate(295.72 171.98) rotate(120.03)"/>
-  <rect class="cls-1" x="132.02" y="59.24" width="39.46" height="38.91" transform="translate(295.83 -13.29) rotate(120.03)"/>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="225.000000pt" height="225.000000pt" viewBox="0 0 225.000000 225.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,225.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M0 1125 l0 -1125 1125 0 1125 0 0 1125 0 1125 -1125 0 -1125 0 0
+-1125z m1032 545 c45 -80 86 -148 90 -150 4 -3 48 65 97 150 54 92 95 154 103
+152 10 -3 301 -167 317 -179 2 -1 -37 -74 -87 -160 l-90 -158 184 -3 184 -2 0
+-195 0 -195 -184 -2 -185 -3 91 -158 c50 -86 89 -159 87 -160 -16 -12 -307
+-176 -317 -179 -8 -2 -49 59 -101 150 -49 84 -92 153 -96 153 -4 0 -47 -69
+-96 -153 -52 -91 -93 -152 -101 -150 -10 3 -301 167 -317 179 -2 1 37 74 87
+160 l91 158 -185 3 -184 2 0 195 0 195 184 2 184 3 -90 158 c-50 86 -89 159
+-87 160 33 26 325 185 330 179 4 -4 45 -72 91 -152z"/>
+<path d="M965 1406 l-160 -92 0 -189 0 -189 160 -92 160 -93 55 32 c30 17 102
+59 160 92 l105 61 0 189 0 189 -110 63 c-60 36 -133 77 -160 93 l-50 29 -160
+-93z"/>
+</g>
 </svg>
