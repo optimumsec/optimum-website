@@ -25,7 +25,7 @@ body > * {
 }
 
 .mounten_art {
-  top: 95vw;
+  top: 115vw;
 }
 
 .desktop_tmp {
@@ -129,7 +129,7 @@ section {
   border-radius: 10px;
   background: linear-gradient(91deg, #212121 -11.67%, #1f1f1f 111.06%), #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin-top: 89vw;
+  margin-top: 100vw;
   width: 90vw;
   height: 26vw;
   display: flex;
@@ -369,7 +369,7 @@ section {
 footer {
   display: flex;
   flex-direction: column;
-  margin-block-start: 32vw;
+  margin-block-start: 40vw;
   align-items: center;
   justify-content: flex-start;
   height: 50vw;
