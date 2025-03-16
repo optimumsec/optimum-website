@@ -24,7 +24,7 @@ body {
   top: -12vw;
 }
 .mounten_art{
-  top: 95vw;
+  top: 115vw;
 }
 .desktop_tmp {
   display: none;
@@ -126,7 +126,7 @@ section {
     border-radius: 10px;
     background: linear-gradient(91deg, #212121 -11.67%, #1f1f1f 111.06%), #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-top: 89vw;
+    margin-top: 100vw;
     width: 90vw;
     height: 26vw;
     display: flex;
@@ -171,7 +171,7 @@ section {
   font-weight: 400;
 }
 .our_clients {
-  height: 90vw;
+  height: 70vw;
   width: 90vw;
   margin: 0vw auto;
   align-items: center;
@@ -193,7 +193,7 @@ section {
   }
   .companies_logos {
     height: 22vw;
-    margin-top: 7.5vw;
+    margin-top: 15vw;
     max-width: 100vw;
     object-fit: cover;
 
@@ -352,7 +352,7 @@ section {
   height: 131vw;
   .globe_container {
     width: 90vw;
-    height: 83vw;
+    height: 80vw;
     overflow: hidden;
     &,
     & > * {
@@ -373,7 +373,8 @@ section {
     }
     .content_box {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
+      justify-content: space-evenly;
       flex-direction: column;
       height: 100%;
       width: 100%;
@@ -393,6 +394,7 @@ section {
       }
       .blue_btn {
         margin-top: 7vw;
+        //margin-inline: auto;
       }
     }
   }
@@ -400,12 +402,12 @@ section {
 footer {
   display: flex;
   flex-direction: column;
-  margin-block-start: 32vw;
+  margin-block-start: 40vw;
   align-items: center;
   justify-content: flex-start;
   //border: 2px dotted;
   //opacity: 50%;
-  height: 65vw;
+  height: 50vw;
   .optimin_logo {
     width: 45vw;
     margin-top: 11vw;
@@ -595,12 +597,12 @@ footer {
       letter-spacing: -0.03vw;
     }
     .companies_logos {
-      margin-top: 4vw;
+      margin-top: 7vw;
       height: 7vw;
 
       --slideWidth: 25vw;
       .slider {
-        height: 4vw;
+        height: 10vw;
       }
     }
   }
@@ -720,7 +722,7 @@ footer {
   }
   footer {
     margin-block-start: 5vw;
-    height: 12vw;
+    height: 10vw;
     justify-content: center;
     .optimin_logo {
       width: 9.5vw;
